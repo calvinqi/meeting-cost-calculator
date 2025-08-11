@@ -1,5 +1,5 @@
 # Meeting Cost Calculator
-Chrome extension that shows the cost of your meetings. Put an end to unnecessary syncs and reclaim your time!
+Chrome extension that shows the cost of your Google Calendar meetings. Put an end to unnecessary syncs and reclaim your time!
 
 
 <img src="images/calendar.png" alt="Meeting Cost Calculator" width="400"/>
