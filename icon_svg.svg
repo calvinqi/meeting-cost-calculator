@@ -1,0 +1,27 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#grad)" stroke="#fff" stroke-width="4"/>
+  
+  <!-- Calendar icon -->
+  <rect x="30" y="35" width="68" height="58" rx="6" fill="#fff"/>
+  <rect x="30" y="35" width="68" height="15" rx="6" fill="#ea4335"/>
+  <rect x="42" y="28" width="4" height="14" fill="#5f6368"/>
+  <rect x="82" y="28" width="4" height="14" fill="#5f6368"/>
+  
+  <!-- Dollar sign -->
+  <text x="64" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a73e8" text-anchor="middle">$</text>
+  
+  <!-- Small dots for calendar dates -->
+  <circle cx="42" cy="65" r="2" fill="#5f6368"/>
+  <circle cx="52" cy="65" r="2" fill="#5f6368"/>
+  <circle cx="62" cy="65" r="2" fill="#5f6368"/>
+  <circle cx="72" cy="65" r="2" fill="#5f6368"/>
+  <circle cx="82" cy="65" r="2" fill="#5f6368"/>
+</svg>

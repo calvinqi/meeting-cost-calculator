@@ -1,0 +1,162 @@
+/* Meeting Cost Calculator Styles */
+
+.meeting-cost-info {
+  margin: 16px 0;
+  padding: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  background: #fff;
+  font-family: 'Google Sans', Roboto, sans-serif;
+}
+
+.cost-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.cost-icon {
+  font-size: 20px;
+}
+
+.cost-amount {
+  font-size: 16px;
+  font-weight: 500;
+  color: #d93025;
+  flex: 1;
+}
+
+.cost-toggle {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cost-toggle:hover {
+  background: #1557b0;
+}
+
+.attendee-costs {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 16px;
+}
+
+.attendee-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.attendee-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.attendee-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #1a73e8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.attendee-info {
+  flex: 1;
+}
+
+.attendee-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 2px;
+}
+
+
+.duration-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  background: #f1f3f4;
+  border-radius: 4px;
+}
+
+.duration-selector label {
+  font-size: 14px;
+  color: #5f6368;
+  font-weight: 500;
+}
+
+.duration-dropdown {
+  padding: 6px 8px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+}
+
+/* Attendee cost badge styles */
+.attendee-cost-badge {
+  display: inline-block;
+  background: #1a73e8;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-left: 6px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .meeting-cost-info {
+    background: #2d2e30;
+    border-color: #5f6368;
+    color: #e8eaed;
+  }
+  
+  .cost-amount {
+    color: #f28b82;
+  }
+  
+  .attendee-item {
+    background: #3c4043;
+  }
+  
+  .attendee-name {
+    color: #e8eaed;
+  }
+  
+  .duration-selector {
+    background: #3c4043;
+  }
+  
+  .duration-dropdown {
+    background: #2d2e30;
+    border-color: #5f6368;
+    color: #e8eaed;
+  }
+  
+  .attendee-cost-badge {
+    background: #1557b0;
+  }
+}
