@@ -15,8 +15,9 @@ Chrome extension that shows the cost of your Google Calendar meetings. Put an en
 The default pay rate is just set as this constant in `content.js`: `const DEFAULT_RATE = 150`, feel free to modify it.
 
 For per-user customization, clicking the extension icon in the address bar opens up a form to set rates for specific email addresses.
+
 <img src="images/customization.png" alt="Customize Rates" width="400"/>
 
 ### Credits
-Much of this was vibe coded with the help of my dear friend Claude Code.
+Much of this was vibe coded with the help of Claude Code.
 
