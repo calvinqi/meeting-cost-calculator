@@ -2,7 +2,8 @@
 Chrome extension that shows the cost of your meetings. Put an end to unnecessary syncs and reclaim your time!
 
 
-![Meeting Cost Calculator](images/calendar.png)
+<img src="images/calendar.png" alt="Meeting Cost Calculator" width="400"/>
+
 
 ## Installation Guide
 1. Clone the repo with `git clone https://github.com/calvinqi/meeting-cost-calculator.git` with, or download the repo as Zip ([screenshot here](https://github.com/calvinqi/meeting-cost-calculator/blob/main/images/downloadzip.png) and unpack it.)
